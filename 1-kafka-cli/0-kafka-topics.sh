@@ -6,6 +6,8 @@
 #####     LOCALHOST    #####
 ############################
 
+## Start Server in Ubuntu in Kafka directory
+$ bin/kafka-server-start.sh config/server.properties
 
 ## RUN COMMANDS IN UBUNTU TERMINAL (or WSL) or MAC TERMINAL (or GIT BASH) or WINDOWS POWERSHELL (or CMD)
 
