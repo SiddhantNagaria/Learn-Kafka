@@ -46,6 +46,11 @@ public class ProducerDemowithCallback {
                     }
                 }
             });
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
 
         //tell producer to send all data and block until done - synchronous
