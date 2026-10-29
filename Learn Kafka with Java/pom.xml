@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Kafka Basics</module>
+        <module>Kafka Producer Wikimedia</module>
     </modules>
 
     <properties>
